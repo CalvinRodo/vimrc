@@ -13,13 +13,20 @@ Bundle 'tpope/vim-sensible'
 Bundle 'pangloss/vim-javascript'
 Bundle 'ervandew/supertab'
 Bundle 'altercation/vim-colors-solarized'
-
+Bundle 'kchmck/vim-coffee-script'
 filetype plugin indent on
 
 "Vim keymaps
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :ctrlp.vim<CR>
 
+"Settings
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set smarttab
+set expandtab
+set number
 let g:SuperTabDefaultCompletionType = "context"
 "Turn on solarized coloring
 syntax enable
